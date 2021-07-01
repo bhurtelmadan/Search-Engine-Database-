@@ -1,1 +1,2 @@
 # Search-Engine-Database-
+We will implement a toy "search engine" in Python. This code will read a corpus and produce TF-IDF vectors for documents in the corpus. Then, given a query string, this code will return the query answer--the document with the highest cosine similarity score for the query. Instead of computing cosine similarity score for each and every document, this code will implement a smarter threshold-bounding algorithm which shares the same basic principle as real search engines.
